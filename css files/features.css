@@ -66,7 +66,7 @@
   position: absolute;
   height: 300px;
   width: 600px;
-  margin-top: -85rem;
+  margin-top: -105rem;
   background-color: red;
   clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
   animation: animate 2s linear infinite;
