@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.features-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 100vw;
+  color: #fff;
+}
+
+.features-section .clip-art2 {
+  position: absolute;
+  margin-top: -1800px;
+  height: 750px;
+  width: 130vw;
+  background-color: #dff9fb;
+  background-color: #ffd32a;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  z-index: -2;
+}
+
+.features-section .feature-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.466);
+  font-family: "Montserrat", sans-serif;
+}
+
+.features-section .feature-box img {
+  height: 400px;
+  width: 600px;
+}
+
+.features-section .feature-box .text-area {
+  min-height: 400px;
+  padding: 20px;
+  /* color:rgb(37, 37, 37); */
+  color: #fff;
+}
+
+.features-section .feature-box h1 {
+  margin: 20px 0px;
+  letter-spacing: 2px;
+  font-family: "Teko";
+}
+
+.features-section a {
+  text-decoration: none;
+}
+
+.features-section button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 50px 0px;
+  transition: 0.5s;
+}
+
+#down-arrow1 {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  margin-top: -85rem;
+  background-color: red;
+  clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+  animation: animate 2s linear infinite;
+  z-index: -1;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(10px);
+  }
+  30% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  70% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.clip-art4 {
+  position: absolute;
+  height: 750px;
+  width: 100vw;
+  margin-top: 30vh;
+  background-color: #f1c40f;
+  z-index: -3;
+}
+
+.clip-art5 {
+  position: absolute;
+  height: 750px;
+  width: 100vw;
+  margin-top: 30vh;
+  background-color: #ffd42a;
+  clip-path: polygon(31% 0, 66% 0, 100% 100%, 0% 100%);
+  z-index: -2;
+}
+
+.clip-art6 {
+  position: absolute;
+  height: 400px;
+  width: 100vw;
+  margin-top: 30vh;
+  background-color: red;
+  clip-path: polygon(
+    87% 66%,
+    100% 52%,
+    100% 30%,
+    87% 48%,
+    71% 38%,
+    55% 49%,
+    36% 36%,
+    17% 51%,
+    0 34%,
+    0 55%,
+    18% 70%,
+    35% 57%,
+    55% 70%,
+    70% 58%
+  );
+  z-index: -1;
+}
+
+@media (max-width: 1216px) {
+
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -80rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -70rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 1069px) {
+
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -65rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+
+@media (max-width: 966px) {
+
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -60rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 854px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -62rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 762px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -105rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .features-section .feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .features-section .feature-box .text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .features-section button {
+    margin: 50px 0px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(32vw);
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 670px) {
+  .features-section .feature-box img {
+    height: 400px;
+    width: 90vw;
+  }
+}
+
+
+@media (max-width: 590px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -165rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 500px) {
+  .features-section button {
+    margin: 50px 0px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(25vw);
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 450px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -150rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .features-section button {
+    margin: 50px 0px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(18vw);
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 370px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -170rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 330px) {
+  #down-arrow1 {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin-top: -190rem;
+    background-color: red;
+    clip-path: polygon(0 11%, 49% 34%, 100% 9%, 100% 75%, 51% 100%, 0 77%);
+    animation: animate 2s linear infinite;
+    z-index: -1;
+  }
+}
